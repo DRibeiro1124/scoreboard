@@ -6,6 +6,9 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-image: url(./images/soccer-field-checkered-background-vector-5012328.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .teams-container {
@@ -14,6 +17,8 @@ body {
   align-items: center;
   margin: 5em;
   text-align: center;
+  color: black;
+  font-size: 2em;
 }
 
 .intro {
@@ -22,4 +27,27 @@ body {
   align-self: auto;
   font-family: cursive;
   font-size: 3em;
+  color:darkblue;
+}
+
+.home-team {
+  font-family: fantasy;
+  color:yellow;
+  font-size: 3em;
+}
+
+.away-team {
+  font-family: fantasy;
+  color: yellow;
+  font-size: 3em;
+}
+
+.home-score {
+  font-size: 3em;
+  color:darkblue;
+}
+
+.away-score {
+  font-size: 3em;
+  color: darkblue;
 }
