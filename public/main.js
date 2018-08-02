@@ -1,5 +1,6 @@
-const main = () => {
-  document.querySelector('h1').textContent += '?'
-}
+// const main = () => {
+//   document.querySelector('h1').textContent += '?'
+// }
 
-document.addEventListener('DOMContentLoaded', main)
+// document.addEventListener('DOMContentLoaded', main)
+

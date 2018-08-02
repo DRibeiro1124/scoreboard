@@ -6,8 +6,44 @@
     <title>Scoreboard</title>
     <link rel="stylesheet" href="/screen.css">
   </head>
+
   <body>
-    <h1>Hello, World!</h1>
+    <header class="intro">English Premier League Scoreboard!</header>
+    <section class="teams-container">
+      <section class="home-team-info">
+        <section>
+          <h3>Home Team</h3>
+          <p>0</p>
+        </section> 
+        <section>
+          <p>Update Home Team Name</p>
+          <input type="text">
+          <button>Update</button>
+          <section>
+            <p>Home Team Score</p>
+            <button>Add 1 goal</button>
+            <button>Subtract 1 goal</button>
+          </section>
+        </section>       
+      </section>
+
+      <section class="away-team-info">
+          <section>
+            <h3>Away Team</h3>
+            <p>0</p>
+          </section> 
+          <section>
+            <p>Update Away Team Name</p>
+            <input type="text">
+            <button>Update</button>
+            <section>
+              <p>Away Team Score</p>
+              <button>Add 1 goal</button>
+              <button>Subtract 1 goal</button>
+            </section>
+          </section>       
+        </section>
+   </section>   
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>

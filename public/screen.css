@@ -7,3 +7,19 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.teams-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5em;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+  font-family: cursive;
+  font-size: 3em;
+}
