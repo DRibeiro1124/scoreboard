@@ -34,7 +34,25 @@ const homeSubtractGoalButtonClickEvent = () => {
   }
 }
 
+const awayAddGoalButtonClickEvent = () => {
+  console.log('Plus one goal')
+  const currentValue = parseInt(document.querySelector('.away-score').textContent)
+  console.log(currentValue)
+  document.querySelector('.away-score').textContent = currentValue + 1
+}
+
+const awaySubtractGoalButtonClickEvent = () => {
+  console.log('Minus one goal')
+  const currentValue = parseInt(document.querySelector('.away-score').textContent)
+  console.log(currentValue)
+  if(currentValue > 0) {
+    document.querySelector('.away-score').textContent = currentValue -1
+  }
+}
+
 document.querySelector('.home-team-name-button').addEventListener('click', homeTeamButtonClickEvent)
 document.querySelector('.away-team-name-button').addEventListener('click', awayTeamButtonClickEvent)
 document.querySelector('.home-add-goal').addEventListener('click', homeAddGoalButtonClickEvent)
 document.querySelector('.home-minus-goal').addEventListener('click', homeSubtractGoalButtonClickEvent)
+document.querySelector('.away-add-goal').addEventListener('click', awayAddGoalButtonClickEvent)
+document.querySelector('.away-minus-goal').addEventListener('click', awaySubtractGoalButtonClickEvent)
